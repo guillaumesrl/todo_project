@@ -3,7 +3,7 @@ GEM
   specs:
     ast (2.4.2)
     erubis (2.7.0)
-    json (2.6.1)
+    json (2.6.2)
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
@@ -44,6 +44,7 @@ GEM
       rack-protection (= 3.0.2)
       sinatra (= 3.0.2)
       tilt (~> 2.0)
+    sysrandom (1.0.5)
     tilt (2.0.11)
     unicode-display_width (2.3.0)
 
@@ -56,6 +57,7 @@ DEPENDENCIES
   rubocop
   sinatra (~> 3.0.2)
   sinatra-contrib
+  sysrandom
 
 RUBY VERSION
    ruby 3.1.0p0

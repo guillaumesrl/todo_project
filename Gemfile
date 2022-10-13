@@ -7,6 +7,7 @@ gem 'erubis'
 gem 'rubocop'
 gem 'sinatra', '~>3.0.2'
 gem 'sinatra-contrib'
+gem 'sysrandom'
 
 
 group :production do
